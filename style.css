@@ -50,7 +50,7 @@ h2 {
     padding: 50px;
     text-align: center;
     font-size: 42px;
-}zxC
+}
 
 .line {
     height: 6px;
@@ -73,7 +73,7 @@ p {
     vertical-align: middle;
 }
 
-.menu{
+.menu {
     list-style: none;
     font-family: sans-serif;
     position: absolute;
@@ -83,7 +83,7 @@ p {
     cursor: pointer;
 }
 
-.links{
+.links {
     float: left;
     color: aliceblue;
     padding-top: 5px;
@@ -94,6 +94,18 @@ p {
     font-size: 20;
 }
 
-.links:hover{
+.links:hover {
     background-color: lightblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
 }
